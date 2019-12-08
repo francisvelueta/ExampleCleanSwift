@@ -13,6 +13,23 @@
 		15B581BE239C909D0011F47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B581BC239C909D0011F47A /* Main.storyboard */; };
 		15B581C0239C90A10011F47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B581BF239C90A10011F47A /* Assets.xcassets */; };
 		15B581C3239C90A10011F47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B581C1239C90A10011F47A /* LaunchScreen.storyboard */; };
+		15B581D4239C936D0011F47A /* PostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581CE239C936D0011F47A /* PostPresenter.swift */; };
+		15B581D5239C936D0011F47A /* PostWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581CF239C936D0011F47A /* PostWorker.swift */; };
+		15B581D6239C936D0011F47A /* PostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581D0239C936D0011F47A /* PostRouter.swift */; };
+		15B581D7239C936D0011F47A /* PostModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581D1239C936D0011F47A /* PostModels.swift */; };
+		15B581D8239C936D0011F47A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581D2239C936D0011F47A /* PostViewController.swift */; };
+		15B581D9239C936D0011F47A /* PostInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581D3239C936D0011F47A /* PostInteractor.swift */; };
+		15B581DF239C96A20011F47A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581DB239C96A20011F47A /* NetworkManager.swift */; };
+		15B581E0239C96A20011F47A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581DD239C96A20011F47A /* Comment.swift */; };
+		15B581E1239C96A20011F47A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581DE239C96A20011F47A /* Post.swift */; };
+		15B581E4239C9C200011F47A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581E3239C9C200011F47A /* PostCell.swift */; };
+		15B581EB239CECF30011F47A /* CommentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581E5239CECF30011F47A /* CommentPresenter.swift */; };
+		15B581EC239CECF30011F47A /* CommentWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581E6239CECF30011F47A /* CommentWorker.swift */; };
+		15B581ED239CECF30011F47A /* CommentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581E7239CECF30011F47A /* CommentRouter.swift */; };
+		15B581EE239CECF30011F47A /* CommentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581E8239CECF30011F47A /* CommentModels.swift */; };
+		15B581EF239CECF30011F47A /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581E9239CECF30011F47A /* CommentViewController.swift */; };
+		15B581F0239CECF30011F47A /* CommentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581EA239CECF30011F47A /* CommentInteractor.swift */; };
+		15B581F2239D02BF0011F47A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B581F1239D02BF0011F47A /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,23 @@
 		15B581BF239C90A10011F47A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B581C2239C90A10011F47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B581C4239C90A10011F47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B581CE239C936D0011F47A /* PostPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPresenter.swift; sourceTree = "<group>"; };
+		15B581CF239C936D0011F47A /* PostWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostWorker.swift; sourceTree = "<group>"; };
+		15B581D0239C936D0011F47A /* PostRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRouter.swift; sourceTree = "<group>"; };
+		15B581D1239C936D0011F47A /* PostModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModels.swift; sourceTree = "<group>"; };
+		15B581D2239C936D0011F47A /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		15B581D3239C936D0011F47A /* PostInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInteractor.swift; sourceTree = "<group>"; };
+		15B581DB239C96A20011F47A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		15B581DD239C96A20011F47A /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		15B581DE239C96A20011F47A /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		15B581E3239C9C200011F47A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		15B581E5239CECF30011F47A /* CommentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentPresenter.swift; sourceTree = "<group>"; };
+		15B581E6239CECF30011F47A /* CommentWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentWorker.swift; sourceTree = "<group>"; };
+		15B581E7239CECF30011F47A /* CommentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRouter.swift; sourceTree = "<group>"; };
+		15B581E8239CECF30011F47A /* CommentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModels.swift; sourceTree = "<group>"; };
+		15B581E9239CECF30011F47A /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		15B581EA239CECF30011F47A /* CommentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInteractor.swift; sourceTree = "<group>"; };
+		15B581F1239D02BF0011F47A /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,88 @@
 		15B581B5239C909D0011F47A /* CleanPosts */ = {
 			isa = PBXGroup;
 			children = (
+				15B581E2239C9BF50011F47A /* Subviews */,
+				15B581DA239C96A20011F47A /* Network */,
+				15B581CB239C928B0011F47A /* Scenes */,
+				15B581CA239C91A50011F47A /* Storiesboard */,
 				15B581B6239C909D0011F47A /* AppDelegate.swift */,
 				15B581B8239C909D0011F47A /* SceneDelegate.swift */,
 				15B581BA239C909D0011F47A /* ViewController.swift */,
-				15B581BC239C909D0011F47A /* Main.storyboard */,
 				15B581BF239C90A10011F47A /* Assets.xcassets */,
 				15B581C1239C90A10011F47A /* LaunchScreen.storyboard */,
 				15B581C4239C90A10011F47A /* Info.plist */,
 			);
 			path = CleanPosts;
+			sourceTree = "<group>";
+		};
+		15B581CA239C91A50011F47A /* Storiesboard */ = {
+			isa = PBXGroup;
+			children = (
+				15B581BC239C909D0011F47A /* Main.storyboard */,
+			);
+			path = Storiesboard;
+			sourceTree = "<group>";
+		};
+		15B581CB239C928B0011F47A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				15B581CD239C92CA0011F47A /* Comment */,
+				15B581CC239C92B30011F47A /* Post */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		15B581CC239C92B30011F47A /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				15B581CE239C936D0011F47A /* PostPresenter.swift */,
+				15B581CF239C936D0011F47A /* PostWorker.swift */,
+				15B581D0239C936D0011F47A /* PostRouter.swift */,
+				15B581D1239C936D0011F47A /* PostModels.swift */,
+				15B581D2239C936D0011F47A /* PostViewController.swift */,
+				15B581D3239C936D0011F47A /* PostInteractor.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		15B581CD239C92CA0011F47A /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				15B581E5239CECF30011F47A /* CommentPresenter.swift */,
+				15B581E6239CECF30011F47A /* CommentWorker.swift */,
+				15B581E7239CECF30011F47A /* CommentRouter.swift */,
+				15B581E8239CECF30011F47A /* CommentModels.swift */,
+				15B581E9239CECF30011F47A /* CommentViewController.swift */,
+				15B581EA239CECF30011F47A /* CommentInteractor.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		15B581DA239C96A20011F47A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				15B581DB239C96A20011F47A /* NetworkManager.swift */,
+				15B581DC239C96A20011F47A /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		15B581DC239C96A20011F47A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15B581DD239C96A20011F47A /* Comment.swift */,
+				15B581DE239C96A20011F47A /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15B581E2239C9BF50011F47A /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				15B581E3239C9C200011F47A /* PostCell.swift */,
+				15B581F1239D02BF0011F47A /* CommentCell.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +245,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15B581D8239C936D0011F47A /* PostViewController.swift in Sources */,
+				15B581D7239C936D0011F47A /* PostModels.swift in Sources */,
+				15B581ED239CECF30011F47A /* CommentRouter.swift in Sources */,
+				15B581E4239C9C200011F47A /* PostCell.swift in Sources */,
+				15B581F0239CECF30011F47A /* CommentInteractor.swift in Sources */,
+				15B581EE239CECF30011F47A /* CommentModels.swift in Sources */,
+				15B581DF239C96A20011F47A /* NetworkManager.swift in Sources */,
+				15B581EB239CECF30011F47A /* CommentPresenter.swift in Sources */,
+				15B581E1239C96A20011F47A /* Post.swift in Sources */,
+				15B581EF239CECF30011F47A /* CommentViewController.swift in Sources */,
+				15B581D4239C936D0011F47A /* PostPresenter.swift in Sources */,
 				15B581BB239C909D0011F47A /* ViewController.swift in Sources */,
+				15B581D5239C936D0011F47A /* PostWorker.swift in Sources */,
 				15B581B7239C909D0011F47A /* AppDelegate.swift in Sources */,
+				15B581EC239CECF30011F47A /* CommentWorker.swift in Sources */,
+				15B581F2239D02BF0011F47A /* CommentCell.swift in Sources */,
+				15B581D9239C936D0011F47A /* PostInteractor.swift in Sources */,
+				15B581D6239C936D0011F47A /* PostRouter.swift in Sources */,
+				15B581E0239C96A20011F47A /* Comment.swift in Sources */,
 				15B581B9239C909D0011F47A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
